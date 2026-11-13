@@ -3,7 +3,7 @@ name: SmartDesk CI and image delivery
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [master]
 
 permissions:
   contents: read
