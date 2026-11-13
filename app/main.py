@@ -46,10 +46,10 @@ def initialize_database():
 
 #changing just
 
-@lru_cache(maxsize=)
+@lru_cache(maxsize=1)
 def get_model():
     # Never load untrusted model files; joblib uses Python pickle internally.
-    return joblib.load(MODEL_PATH)
+    return None
 
 
 @asynccontextmanager
