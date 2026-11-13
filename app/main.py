@@ -44,7 +44,7 @@ def initialize_database():
             )"""
         )
 
-#changing just in case
+#changing just
 
 @lru_cache(maxsize=1)
 def get_model():
