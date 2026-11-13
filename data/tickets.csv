@@ -1,0 +1,46 @@
+text,category
+I was charged twice for my online subscription,billing
+Please refund the extra payment for my account,billing
+My invoice amount is wrong this month,billing
+The credit card payment appears twice in my statement,billing
+I need a copy of the receipt for last month,billing
+Why was my subscription renewal billed early,billing
+The discount coupon did not apply to my bill,billing
+There is an incorrect charge for my membership,billing
+My refund has not reached my bank account,billing
+The payment gateway deducted money unexpectedly,billing
+I need to update the billing address on the invoice,billing
+My debit card was charged although the order failed,billing
+The pricing plan amount looks incorrect,billing
+Can you cancel the invoice and issue a refund,billing
+I have a question about the subscription fee,billing
+I cannot log in to my account with my password,login
+The password reset email never arrived,login
+My account is locked after multiple sign in attempts,login
+The login screen keeps rejecting my credentials,login
+My verification code is not arriving on my phone,login
+I forgot my password and need account access,login
+Two factor authentication stops my sign in,login
+My username is not recognized by the login page,login
+I was automatically signed out of my account,login
+The reset password link has expired,login
+The authentication token is rejected at sign in,login
+My login session keeps expiring immediately,login
+I cannot unlock my account after verification,login
+The sign in page asks for an invalid security code,login
+How can I recover my account credentials,login
+The application freezes whenever I open the dashboard,technical
+The mobile app crashes after I select a document,technical
+The website shows a server error when I save changes,technical
+The report download button does not respond,technical
+The application is very slow when loading reports,technical
+I see a blank screen after opening the product page,technical
+The search feature returns no results for valid queries,technical
+The file upload fails with an unknown server error,technical
+The dashboard chart is not rendering correctly,technical
+I cannot connect the mobile app to the service,technical
+The website stops responding during navigation,technical
+The notifications feature is not working on my device,technical
+The app closes unexpectedly when submitting a form,technical
+The API returns an internal server error repeatedly,technical
+The export feature is broken after the latest update,technical

@@ -1,0 +1,20 @@
+# Used on a Linux server after the published image is available.
+# Example: IMAGE_REF=ghcr.io/your-user/your-repo:<commit-sha> docker compose -f compose.prod.yaml up -d
+services:
+  api:
+    image: ${IMAGE_REF:?Set IMAGE_REF to a versioned image tag}
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ticket_data:/app/runtime
+    environment:
+      DB_PATH: /app/runtime/tickets.db
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+volumes:
+  ticket_data:
